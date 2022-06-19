@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debounce And Throttle</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+         <legend>Debounce And Throttle</legend>
+         <label style= "color: red;" for="text-normal">Normal: <strong style= "color: black;"> called on each key press</strong></label>
+         <input type="text" id="text-normal" name="text-normal"><br><br>
+         <span id="count-normal"></span>
+         <br><br>
+         <label style= "color: red;" for="text-debounce">Debounce: <strong style= "color: black;"> called on time between key press is more than 800ms</strong></label>
+         <input type="text" id="text-debounce" name="text-debounce"><br><br>
+         <span id="count-debounce"></span>
+         <br><br>
+         <label style= "color: red;" for="text-throttle">Throttle: <strong style= "color: black;"> called after interval of 800ms</strong></label>
+         <input type="text" id="text-throttle" name="text-throttle"><br><br>
+         <span id="count-throttle"></span>
+         <br><br>
+        </fieldset>
+    </form>
+
+    <script src="./app.js"></script>
+</body>
+</html>
